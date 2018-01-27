@@ -7,7 +7,7 @@ from os.path import exists
 script , from_file , to_file = argv
 
 #print the 2nd and 3rd arguments
-#print "Coping from %s to %s" % (from_file, to_file)
+print "Coping from %s to %s" % (from_file, to_file)
 
 #Declaring $in_file variable for opening file from 2nd variable
 in_file = open(from_file)
@@ -17,15 +17,15 @@ indata = in_file.read()
 
 #Print out the size of the file in bytes , and it' s using len function
 
-#print "The input file is %d bytes long." % len(indata)
+print "The input file is %d bytes long." % len(indata)
 
 #Printing and checking if the 3rd argument file is valid or not, if not it will create file with the name
-#print "Does the output file exist? %r" % exists(to_file)
+print "Does the output file exist? %r" % exists(to_file)
 #Printning
-#print "Ready, hit return(ENTER) to continue, CTRL+C to abort"
+print "Ready, hit return(ENTER) to continue, CTRL+C to abort"
 
 #Just normal ..
-#raw_input("? ")
+raw_input("$ ")
 
 #Declaring $out_file  variable which will open the file that we have passed in 3rd argument with write policy
 out_file = open(to_file, 'w')
@@ -39,7 +39,7 @@ print "Alright, all done"
 out_file.close();in_file.close()
 
 #opening the file to read + declaring variable $x
-#x = open(to_file)
+x = open(to_file)
 
 #Print x file
-#print x.read()
+print x.read()
