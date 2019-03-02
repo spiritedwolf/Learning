@@ -1,8 +1,7 @@
 ;	Author: Shubham Singh
 ;	SLAE - 1342
 ;	Assignment 1: Bind TCP Shellcode / Linux x86
-;
-;
+
 
 global _start
 
