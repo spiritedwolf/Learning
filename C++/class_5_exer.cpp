@@ -95,7 +95,7 @@ template<typename T>class SpiritClassTemp
 
 };
 int main(){
-    //name variable is of data type Spirit, and the Spirit() constructor will take the input
+    //name variable is of data type Spirit, 
     Wolf wolf = Wolf("iamwolf");
     SpiritClassTemp<Wolf>wolfTemp(wolf);
     wolfTemp.getNameandmakesound(); 
