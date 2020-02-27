@@ -80,7 +80,7 @@ template<typename L>void getNameandmakesound(L& Spirited)
 }
 
 int main(){
-    //name variable is of data type Spirit, and the Spirit() constructor will take the input
+    //name variable is of data type Spirit, 
     Wolf wolf = Wolf("iamwolf");
     getNameandmakesound(wolf); 
 
