@@ -40,7 +40,7 @@ class Wolf: public Spirit
 
 };
 int main(){
-    //name variable is of data type Spirit, and the Spirit() constructor will take the input
+    //name variable is of data type Spirit, 
     Wolf wolf = Wolf("iamwolf");
     cout<<wolf.printName()<<" is barking:"; 
     cout<<wolf.MakeSound()<<endl;
