@@ -9,4 +9,7 @@ Folder share with rdesktop
 To scroll with the mouse. Press ctrl+D and :
 ```setw -g mouse on```
 
+# View the Java Alternative
+``` sudo update-alternatives --config java```
+
 
