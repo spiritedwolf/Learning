@@ -11,5 +11,8 @@
 ## blur - unblur 
 ```https://github.com/beurtschipper/Depix```
 
-## RECOVERING A FULL PEM PRIVATE KEY WHEN HALF OF IT IS REDACTED
+## Image stego
+```https://stylesuxx.github.io/steganography/```
+
+## Recovering a Full Pem Private Key When Half of It Is Redacted
 ```https://blog.cryptohack.org/twitter-secrets```
