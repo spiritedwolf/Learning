@@ -5,9 +5,11 @@
 # Web
 ## hash collision
 
-```https://www.whitehatsec.com/blog/magic-hashes/```
-```https://github.com/spaze/hashes/blob/master/tiger128%2C4.md```
-```https://www.darkreading.com/vulnerabilities---threats/php-hash-comparison-weakness-a-threat-to-websites-researcher-says-/d/d-id/1320353```
+```
+1. https://www.whitehatsec.com/blog/magic-hashes/
+2. https://github.com/spaze/hashes/blob/master/tiger128%2C4.md
+3. https://www.darkreading.com/vulnerabilities---threats/php-hash-comparison-weakness-a-threat-to-websites-researcher-says-/d/d-id/1320353
+```
 
 # Misc
 ## blur - unblur 
