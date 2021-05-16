@@ -6,3 +6,7 @@
 ## hash collision
 
 ```https://www.whitehatsec.com/blog/magic-hashes/```
+
+# Misc
+## blur - unblur 
+```https://github.com/beurtschipper/Depix```
