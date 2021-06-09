@@ -12,4 +12,6 @@ To scroll with the mouse. Press ctrl+D and :
 # View the Java Alternative
 ``` sudo update-alternatives --config java```
 
-
+# AD
+```reg add HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest /v UseLogonCredential /t REG_DWORD /d 1
+```
