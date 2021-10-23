@@ -16,3 +16,10 @@ To scroll with the mouse. Press ctrl+D and :
 ```
 reg add HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest /v UseLogonCredential /t REG_DWORD /d 1
 ```
+
+## lazy Python
+
+From hex to ascii
+```
+bytes.fromhex('666c61677b6f70656e5f706f727428616c29737d').decode("ascii")
+```
